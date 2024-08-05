@@ -19,5 +19,8 @@ require('nvim-tree').setup({
     vim.keymap.set('n', '<leader>nn', api.fs.rename)
     vim.keymap.set('n', '<leader>nf', api.fs.create)
     vim.keymap.set('n', '<leader>nd', api.fs.remove)
-  end
+  end,
+  filters = {
+	  dotfiles = false
+  }
 })

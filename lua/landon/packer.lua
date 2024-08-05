@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
     use 'navarasu/onedark.nvim'
     use 'github/copilot.vim'
     use {
-        'nvim-tree/nvim-tree.lua',
+        'LandonHarter/nvim-tree.lua',
         after = 'nvim-web-devicons',
         requires = 'nvim-tree/nvim-web-devicons'
     }
@@ -38,4 +38,6 @@ return require('packer').startup(function(use)
 		    'nvim-lua/plenary.nvim'
 	    }
     }
+    use 'alvan/vim-closetag'
+    use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 end)

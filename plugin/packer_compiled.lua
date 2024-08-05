@@ -144,7 +144,12 @@ _G.packer_plugins = {
     loaded = true,
     needs_bufread = false,
     path = "C:\\Users\\lando\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
+    url = "https://github.com/LandonHarter/nvim-tree.lua"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\lando\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -175,6 +180,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\lando\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-closetag"] = {
+    loaded = true,
+    path = "C:\\Users\\lando\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-closetag",
+    url = "https://github.com/alvan/vim-closetag"
   },
   ["vim-vsnip"] = {
     loaded = true,
